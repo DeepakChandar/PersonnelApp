@@ -1,0 +1,16 @@
+services:
+  myapp:
+    build: .
+    ports:
+      - "5003:5000"
+    restart: always
+    networks:
+      - db_my_network
+    environment:
+      - DB_HOST=mongo
+      - DB_USER=admin
+      - DB_PASS=admin_password
+
+networks:
+  db_my_network:
+    external: true

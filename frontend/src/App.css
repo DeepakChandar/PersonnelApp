@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.ant-layout-header {
+  height: 64px;
+  line-height: 64px;
+  padding: 0;
+}
+
+.ant-layout-sider {
+  background: #fff;
+}
+
+.ant-layout-content {
+  background: #f0f2f5;
+  padding: 20px;
+}
+
+.content-container {
+  padding: 24px;
+  background: #fff;
+  min-height: 360px;
+  margin-top: 20px;
+}
